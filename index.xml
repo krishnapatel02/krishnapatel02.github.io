@@ -6,15 +6,25 @@
     <description>Recent content on Krishna Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://krishnapatel02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://krishnapatel02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Weather App</title>
+      <link>http://krishnapatel02.github.io/projects/weather_app/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/weather_app/</guid>
+      <description>Introduction: A weather app made for Android using Kotlin. To get the weather data the app uses Android&amp;rsquo;s volley library to make an API request using the user&amp;rsquo;s location and then the response is parsed using a JSON library. The data is all obtained from the OpenWeatherAPI. There is also a toggle for Farenheit and Celcius and a search box to look up the weather in a different location.
+Github Link: Link will be added once project is at a finished state.</description>
+    </item>
+    
     <item>
       <title>Unraid Server</title>
       <link>http://krishnapatel02.github.io/projects/unraid_server/</link>
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>http://krishnapatel02.github.io/projects/unraid_server/</guid>
-      <description>Introduction: This server will be used for multiple applications through virtualization. Unraid is a linux distro that allows the partitioning of resources to virtualized machines through the use of its hypervisor. The VMs will then be used to run multiple servers: one for a game server, one for media serving over the local network, one for docker containers, and the last for miscellaneous development use.
-Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: Sandisk 256GB Hard Drives: 1TB 3.</description>
+      <description>Introduction: This server will be used for multiple applications through virtualization. Unraid is a linux distro that allows the partitioning of resources to virtual machines/ The VMs will be used to run multiple servers/docker containers: one for a game server, one for media serving over the local network, and the last for miscellaneous development use.
+Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: 256GB Hard Drives: 1TB 3.</description>
     </item>
     
     <item>
@@ -25,15 +35,6 @@ Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: 
       <guid>http://krishnapatel02.github.io/projects/data_structures_313/</guid>
       <description>Introduction: Linked below is a link to a python file with an implementation of a queue, stack, priority queue, binary search tree, and red-black tree. This code was written for a data structures course.
 Github Link: Placeholder</description>
-    </item>
-    
-    <item>
-      <title>Pihole on Raspberry Pi Zero 2 W</title>
-      <link>http://krishnapatel02.github.io/projects/pi_hole/</link>
-      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishnapatel02.github.io/projects/pi_hole/</guid>
-      <description>Introduction: </description>
     </item>
     
     <item>
