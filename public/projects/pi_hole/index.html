@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="author: name: &amp;ldquo;Krishna Patel&amp;rdquo; date: 2022-01-05 title: Pihole on Raspberry Pi Zero 2 W weight: 10 Introduction: Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://krishnapatel02.github.io/projects/pi_hole/" />
+
+
+    <title>
+        
+             :: Krishna Patel 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.4e5c639214707eff609bb55fe49e183dee42258a73bc90e4cc7b0a84f900798a.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="author: name: &ldquo;Krishna Patel&rdquo; date: 2022-01-05 title: Pihole on Raspberry Pi Zero 2 W weight: 10 Introduction: Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1.">
+
+<meta itemprop="wordCount" content="83">
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="author: name: &ldquo;Krishna Patel&rdquo; date: 2022-01-05 title: Pihole on Raspberry Pi Zero 2 W weight: 10 Introduction: Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#a9a9b3;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/">About</a></li><li><a href="/projects/">Projects</a></li><li><a href="https://www.github.com/krishnapatel02">Resume</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="http://krishnapatel02.github.io/projects/pi_hole/"></a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="weight-10">author:
+name: &ldquo;Krishna Patel&rdquo;
+date: 2022-01-05
+title: Pihole on Raspberry Pi Zero 2 W
+weight: 10</h2>
+<h2 id="introduction">Introduction:</h2>
+<p>Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1.1.1.1).</p>
+<h3 id="credits">Credits:</h3>
+<h4 id="httpspi-holenet"><a href="https://pi-hole.net/">https://pi-hole.net/</a></h4>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            
+            
+            <span><a href="https://www.github.com/krishnapatel02">Krishna Patel</a></span>
+        </div>
+    </div>
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.feebdc8d801e3fb1791305e362b6d11557f029604dd5b3c27e2686bc88787ee90ae1ccf0afe81bd7d959d7617cfe1fc73062aa82b4e1fa830d6941193d2cbddf.js" integrity="sha512-/uvcjYAeP7F5EwXjYrbRFVfwKWBN1bPCfiaGvIh4fukK4czwr&#43;gb19lZ12F8/h/HMGKqgrTh&#43;oMNaUEZPSy93w=="></script>
+
+
+
+    </body>
+</html>

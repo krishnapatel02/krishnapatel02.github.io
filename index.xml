@@ -6,15 +6,54 @@
     <description>Recent content on Krishna Patel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://krishnapatel02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://krishnapatel02.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Rasterization in C&#43;&#43;</title>
+      <link>http://krishnapatel02.github.io/projects/software_rasterizer/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/software_rasterizer/</guid>
+      <description>Introduction: This was a project for CS 441 Intro to Computer Graphics at the University of Oregon and was written in C++. The project ties together topics learned in class about how a GPU renders triangles to make more complicated models. Graphics techniques such as lerping, shading, and depth mapping are demonstrated.
+Github Link: Link will be added once the project has been graded. If you would like to see this before the link has been posted please email me for more details.</description>
+    </item>
+    
+    <item>
+      <title>EasyA Grade Viewer</title>
+      <link>http://krishnapatel02.github.io/projects/easya/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/easya/</guid>
+      <description>Introduction: This was a project for CS 422 Software Methodologies at the University of Oregon and was developed by a team of five people. This program generates graphs of grade data for professors and courses taught at the University of Oregon based on a data set obtained from The Emerald&amp;rsquo;s grade tracker. The program was written in Python3 and the UI was created with tkinter and graph generation was done with matplotlib.</description>
+    </item>
+    
+    <item>
+      <title>Simple Weather App</title>
+      <link>http://krishnapatel02.github.io/projects/weather_app/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/weather_app/</guid>
+      <description>Introduction: A weather app made for Android using Kotlin. To get the weather data the app uses Android&amp;rsquo;s volley library to make an API request using the user&amp;rsquo;s location and then the response is parsed using a JSON library. The data is all obtained from the OpenWeatherAPI. There is also a toggle for Farenheit and Celcius and a search box to look up the weather in a different location.
+Github Link: https://github.</description>
+    </item>
+    
     <item>
       <title>Unraid Server</title>
       <link>http://krishnapatel02.github.io/projects/unraid_server/</link>
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>http://krishnapatel02.github.io/projects/unraid_server/</guid>
-      <description>Introduction: This server will be used for multiple applications through virtualization. Unraid is a linux distro that allows the partitioning of resources to virtualized machines through the use of its hypervisor. The VMs will then be used to run multiple servers: one for a game server, one for media serving over the local network, one for docker containers, and the last for miscellaneous development use.
-Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: Sandisk 256GB Hard Drives: 1TB 3.</description>
+      <description>Introduction: This server will be used for multiple applications through virtualization. Unraid is a linux distro that allows the partitioning of resources to virtual machines/ The VMs will be used to run multiple servers/docker containers: one for a game server, one for media serving over the local network, and the last for miscellaneous development use.
+Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: 256GB Hard Drives: 1TB 3.</description>
+    </item>
+    
+    <item>
+      <title>Various Data Structures in Python</title>
+      <link>http://krishnapatel02.github.io/projects/data_structures_313/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/data_structures_313/</guid>
+      <description>Introduction: Linked below is a link to a python file with an implementation of a queue, stack, priority queue, binary search tree, and red-black tree. This code was written for a data structures course.
+Github Link: Placeholder</description>
     </item>
     
     <item>
@@ -24,15 +63,6 @@ Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: 
       
       <guid>http://krishnapatel02.github.io/about/</guid>
       <description>My name is Krishna Patel and I am a Computer Science student at the University of Oregon. My interests lie in software development, artificial intelligence, and hardware. Languages: - C - C++ - Python - Kotlin Other Skills: - CAD - 3D printing, laser cutting, vinyl cutting, CNC machines - Computer/Server building - Git version control - Linux Courses Taken: - CS 210: Computer Science I • Python and other programming basics.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://krishnapatel02.github.io/projects/pi_hole/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://krishnapatel02.github.io/projects/pi_hole/</guid>
-      <description>author: name: &amp;ldquo;Krishna Patel&amp;rdquo; date: 2022-01-05 title: Pihole on Raspberry Pi Zero 2 W weight: 10 Introduction: Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1.</description>
     </item>
     
   </channel>
