@@ -1,0 +1,54 @@
+baseURL = 'http://krishnapatel02.github.io/'
+languageCode = 'en-us'
+title = 'Krishna Patel'
+theme="hello-friend-ng"
+
+enableThemeToggle = true
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+[params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    logoCursorColor = "#a9a9b3"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/krishnapatel02/"
+
+[[params.social]]
+name = "email"
+url = "mailto:krishna.patel97402@gmail.com"
+
+[[params.social]]
+name = "github"
+url = "https://www.github.com/krishnapatel02/"
+
+[params.footer]
+    trademark = true
+    rss = false
+    copyright = false
+    author = false
+
+    topText = ["<a href=\"https://www.github.com/krishnapatel02\">Krishna Patel</a>"]
+    bottomText = [  
+    ]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://drive.google.com/file/d/1Dqzx7wROYH3fzvwbBijO_NpF85UaNhLl/view?usp=sharing"
