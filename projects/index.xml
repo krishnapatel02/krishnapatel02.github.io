@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Krishna Patel</title>
+    <link>http://krishnapatel02.github.io/projects/</link>
+    <description>Recent content in Projects on Krishna Patel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://krishnapatel02.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unraid Server</title>
+      <link>http://krishnapatel02.github.io/projects/unraid_server/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/unraid_server/</guid>
+      <description>Introduction: This server will be used for multiple applications through virtualization. Unraid is a linux distro that allows the partitioning of resources to virtualized machines through the use of its hypervisor. The VMs will then be used to run multiple servers: one for a game server, one for media serving over the local network, one for docker containers, and the last for miscellaneous development use.
+Hardware: CPU: Intel Core i7 4960X 6 Core Processor RAM: 32GB DDR3 8GB x 4 SSD: Sandisk 256GB Hard Drives: 1TB 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://krishnapatel02.github.io/projects/pi_hole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://krishnapatel02.github.io/projects/pi_hole/</guid>
+      <description>author: name: &amp;ldquo;Krishna Patel&amp;rdquo; date: 2022-01-05 title: Pihole on Raspberry Pi Zero 2 W weight: 10 Introduction: Being tired of ads on every website, I deployed a raspberry pi to run a DNS server which my router points to. Pihole contains a blacklist which does not allow a DNS request through which results in a blank space on all websites that has an ad provider on the blacklist. All requests not on the blacklist will then forward to Cloudflare DNS (1.</description>
+    </item>
+    
+  </channel>
+</rss>
