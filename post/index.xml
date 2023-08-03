@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My blog</title>
+    <link>https://krishnapatel02.github.io/post/</link>
+    <description>Recent content in Posts on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnapatel02.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For more information about me, click here</title>
+      <link>https://krishnapatel02.github.io/post/about/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnapatel02.github.io/post/about/</guid>
+      
+        <description>About</description>
+      
+    </item>
+    
+    <item>
+      <title>To see my projects, click here</title>
+      <link>https://krishnapatel02.github.io/post/projects/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnapatel02.github.io/post/projects/</guid>
+      
+        <description>Porfolio</description>
+      
+    </item>
+    
+    <item>
+      <title>Click here to view my resume</title>
+      <link>https://krishnapatel02.github.io/post/resume/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnapatel02.github.io/post/resume/</guid>
+      
+        <description>Resume</description>
+      
+    </item>
+    
+  </channel>
+</rss>
